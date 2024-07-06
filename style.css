@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(132, 159, 132);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn2{
+    width: 60px;
+     
+    height: 40px;
+    background-color: rgb(35, 119, 208);
+}
+.btn2:hover{
+    animation: btn2 2s infinite ; 
+}
+
+    @keyframes btn2{
+        0%{
+    transform: scale(1);
+    opacity: 0;
+        }
+        50%{
+            transform: scale(1.1);
+            border: 5px solid blue;
+            background-color: rgb(61, 194, 103);
+            color: burlywood;
+    
+        }
+        100%{
+            transform: scale(1);
+        opacity: 1;
+        }
+    }
+
+
+
